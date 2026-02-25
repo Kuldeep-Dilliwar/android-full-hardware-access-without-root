@@ -30,8 +30,10 @@ termux-usb -r "/dev/bus/usb/001/002"
 ```
 manually edit the script according to the number `/dev/bus/usb/XXX/YYY`.
 ```
+cd ~
 echo "#!/data/data/com.termux/files/usr/bin/bash"                                                               > run_scanner.sh
 echo "/data/data/com.termux/files/home/usbredir/build/tools/usbredirect --device 001-002 --as 127.0.0.1:23456" >> run_scanner.sh
+chmod +x run_scanner.sh
 ```
 Kepp it running !
 ```
