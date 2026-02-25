@@ -37,7 +37,7 @@ chmod +x run_scanner.sh
 ```
 Kepp it running !
 ```
-termux-usb -E -e ./run_scanner.sh /dev/bus/usb/001/002
+termux-usb -r -E -e ./run_scanner.sh /dev/bus/usb/001/002
 ```
 download the cloud ubuntu image around 550MB, `(alpine didn't work for some cases where proprietary drivers compiled for glibc and alpine use musl)`
 ```
