@@ -26,9 +26,9 @@ termux-usb -l
 ```
 request access and press `OK`
 ```
-termux-usb -r "dev/bus/dev/001/002"
+termux-usb -r "dev/bus/usb/001/002"
 ```
-manually edit the script according to the number `dev/bus/dev/XXX/YYY`.
+manually edit the script according to the number `dev/bus/usb/XXX/YYY`.
 ```
 echo "#!/data/data/com.termux/files/usr/bin/bash"                                                               > run_scanner.sh
 echo "/data/data/com.termux/files/home/usbredir/build/tools/usbredirect --device 001-002 --as 127.0.0.1:23456" >> run_scanner.sh
