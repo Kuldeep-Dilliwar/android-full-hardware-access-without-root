@@ -40,6 +40,7 @@ Kepp it running !
 termux-usb -r -E -e ./run_scanner.sh /dev/bus/usb/001/002
 ```
 download the cloud ubuntu image around 550MB, `(alpine didn't work for some cases where proprietary drivers compiled for glibc and alpine use musl)`
+also If you wanna save time you can forge this img in github actions with the libs/software/drivers you want it will save your time in termux you just boot via qemu and start using your hardware.
 ```
 wget https://cloud-images.ubuntu.com/releases/noble/release/ubuntu-24.04-server-cloudimg-arm64.img
 ```
@@ -87,14 +88,26 @@ use this passwd when asked for login in username "ubuntu"
 ```
 root
 ```
-use run this first otherwise driver will can't see the printer/scanner/other device
-```
-sudo su -
-```
 varify your device
 ```
 lsusb
 ```
+use run this first otherwise system can see but driver will can't see the printer/scanner/other device
+```
+sudo su -
+```
+(skip) In my case i am using a scanner/printer (all in one) hardware so for me it's 
+```
+apt update
+apt upgrade
+```
+```
+apt install hplip
+```
+```
+hp-plugin -i
+```
+
 ---
 ## pulling our the scan or data
 
