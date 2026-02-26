@@ -1,6 +1,6 @@
 # android-hardware-access-without-root `In Termux?`
 ## *(using qemu aarch64, usbredirect and ubuntu cloud img)*
-How to get full access of hardware connected to your android device via USB port? Here is how to:
+How to get access of hardware connected to your android device via USB port? Here is how to:
 
 ---
 *I am using a hp m1136 MFP hardware in this setup to demonstrate the access*
