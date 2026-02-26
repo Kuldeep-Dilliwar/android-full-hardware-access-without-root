@@ -24,10 +24,7 @@ pkg i              \
 pip install meson
 ```
 ```
-git \
-    clone         \
-    --depth 1     \
-    https://gitlab.freedesktop.org/spice/usbredir.git
+git clone --depth 1 https://gitlab.freedesktop.org/spice/usbredir.git
 cd usbredir
 meson setup build
 ninja -C build
