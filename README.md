@@ -18,7 +18,7 @@ pkg i \
     pkg-config \
     qemu-utils \
     netcat-openbsd \
-    qemu-system-aarch64-headless \
+    qemu-system-aarch64-headless 
 ```
 ```
 pip install meson
