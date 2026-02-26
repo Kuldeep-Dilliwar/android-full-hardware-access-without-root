@@ -1,4 +1,5 @@
 # android-hardware-access-without-root `In Termux?`
+## *(using qemu and ubuntu cloud img)*
 How to get full access of hardware connected to your android device via USB port? Here is how to:
 
 ### Termux native 1st terminal
