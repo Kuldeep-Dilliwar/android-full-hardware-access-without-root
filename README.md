@@ -7,7 +7,18 @@ update everything
 pkg update && yes | pkg upgrade
 ```
 ```
-pkg i termux-api git python ninja pkg-config glib qemu-system-aarch64-headless qemu-utils wget libusb xorriso netcat-openbsd
+pkg i \
+    wget \
+    glib \
+    ninja \
+    libusb \
+    xorriso \
+    termux-api \
+    git python \
+    pkg-config \
+    qemu-utils \
+    netcat-openbsd \
+    qemu-system-aarch64-headless \
 ```
 ```
 pip install meson
