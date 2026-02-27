@@ -151,4 +151,5 @@ USB-over-TCP Overhead: USB 2.0/3.0 relies on very precise timing and fast pollin
 
 Note: You cannot easily fix this without root, but knowing why it happens helps set expectations. The resulting image quality remains high (few white line where bulb had stoped) because the data packets themselves arrive intact, just delayed.
 
----
+visit https://github.com/Kuldeep-Dilliwar/termux-USB-bridge to see the proot solution.
+--- 
